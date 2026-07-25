@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f9db6d;
+  text-align: center;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #877666;
+}
+.board {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+}
+.cell {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 20px;
+  background-color: #adf7b6;
+  font-size: 10vmin;
+  color: #79addc;
+}
+.title {
+  font-size: 5vmin;
+  color: #352264;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #d43d3d;
+}
+
+.reset {
+  height: 5vmin;
+  width: 20vmin;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 4vmin;
+  margin-top: 2vmin;
+}
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-content {
+  width: 320px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  animation: popup 0.3s ease;
+}
+
+.dialog-content h2 {
+  color: #27ae60;
+  margin-bottom: 15px;
+}
+
+.dialog-content p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.dialog-content button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dialog-content button:hover {
+  background: #2980b9;
+}
+
+@keyframes popup {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
