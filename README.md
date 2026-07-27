@@ -6,15 +6,15 @@
 - <a href="#-brief-summary">📝 Brief Summary</a>
 - <a href="(#-project-overview)">📖 Project Overview</a>
 - <a href="(#-problem-statement)">❓ Problem Statement</a>
-- [📊 Dataset](#-dataset)
-- [🛠️ Tools and Technologies](#️-tools-and-technologies)
-- [⚙️ Methods](#️-methods)
-- [📈 Key Insights](#-key-insights)
-- [🚀 Features](#-features)
-- [📂 Project Structure](#-project-structure)
-- [📷 Preview](#-preview)
-- [🎯 Future Enhancements](#-future-enhancements)
-- [👩‍💻 Author](#-author)
+- <a href="#-dataset"> 📊 Dataset</a>
+- <a href="#️-tools-and-technologies">🛠️ Tools and Technologies</a>
+- <a href="#️-methods">⚙️ Methods</a>
+- <a href="#-key-insights">📈 Key Insights</a>
+- <a href="#-features">🚀 Features</a>
+- <a href="#-project-structure">📂 Project Structure</a>
+- <a href=" #-preview">📷 Preview</a>
+- <a href="#-future-enhancements">🎯 Future Enhancements</a>
+- <a href="#-author">👩‍💻 Author</a>
 
 ---
 
@@ -163,6 +163,6 @@ Tic-Tac-Toe/
 
 **Khushi Shaw**
 
----
+## <a href="https://www.linkedin.com/in/khushi-shaw-developer" target="_blank">Tap to follow my linkdin profile</a>
 
 ⭐ **If you found this project useful, don't forget to star the repository!**
